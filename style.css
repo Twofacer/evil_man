@@ -1,0 +1,55 @@
+h1  {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+.main .user_info .day_activity_holder {
+border: 1px solid #ccc;
+display: flex;
+flex-direction: column;
+max-width: 200px;
+padding: 10px;
+}
+.main .user_info .resource {
+
+display: flex;
+flex-direction: column;
+max-width: 200px;
+padding: 10px;
+margin-top: 10px ;
+}
+
+.main .shop {
+    margin-left: 10px;
+}
+.main .shop .card_holder .card{
+    border: 1px solid #ccc;
+    background-color: azure;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+.main .shop .card_holder .card .card_title {
+    font-weight: bold;
+}
+.main .shop .card_holder .card .card_buy {
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+.projectButton {
+    border: 1px solid #ccc;
+    background-color: azure;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+    cursor: pointer;
+}

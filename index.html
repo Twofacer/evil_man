@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="align-text: center">Злодей</h1>
+    <div class="main">
+        <div class="user_info">
+            <div class="day_activity_holder">
+                <div class="">Сон: <span id="sleep_display">8</span> час</div>
+                <input type="range" value="8" id="sleep"  min="1" max="24" name="sleep" oninput="slepTime()">
+                <div class="">Работа: <span id="work_display">8</span> час</div>
+                <input type="range" value="8" id="work" min="0" max="24" name="work" oninput="workeTime()">
+                <div class="">Учеба: <span id="styde_display">0</span> час</div>
+                <input type="range" id="styde" value="0" min="0" max="24" name="styde" oninput="stydeeTime()">
+                
+              
+                <div class="" id="free_time">Cвободное время: <span id="free_time_display"> </span> часов</div>
+            </div>
+            <div class="resource">
+                <div class="credit">Кредиты: <span id="credit">100</span></div>
+                <br>
+                <div class="home">Убежище: <span id="home_type">Сьемная квартира</span></div>
+            </div>
+        </div>
+        <div class="shop">
+            <h2>Магазин</h2>
+            <div id="projectsDiv">
+               
+        
+        
+                <div id="projectListTop">
+                </div>
+                </div>
+            <div class="card_holder" id="projectsDiv">
+               
+                <!-- <div class="card">
+                    <div class="card_title">Модуль даркнета</div>
+                    <div class="card_cost">320 кредитов</div>
+                    <div class="card_description">Позволяет получить доступ к широкому ассортименту товаров</div>
+                    <button class="card_buy">Купить</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
